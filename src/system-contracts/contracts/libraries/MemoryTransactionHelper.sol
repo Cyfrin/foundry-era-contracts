@@ -4,11 +4,11 @@ pragma solidity ^0.8.0;
 
 import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
-import {IPaymasterFlow} from "src/system-contracts/contracts/interfaces/IPaymasterFlow.sol";
-import {IContractDeployer} from "src/system-contracts/contracts/interfaces/IContractDeployer.sol";
-import {ETH_TOKEN_SYSTEM_CONTRACT, BOOTLOADER_FORMAL_ADDRESS} from "src/system-contracts/contracts/Constants.sol";
-import {RLPEncoder} from "src/system-contracts/contracts/libraries/RLPEncoder.sol";
-import {EfficientCall} from "src/system-contracts/contracts/libraries/EfficientCall.sol";
+import {IPaymasterFlow} from "../interfaces/IPaymasterFlow.sol";
+import {IContractDeployer} from "..//interfaces/IContractDeployer.sol";
+import {ETH_TOKEN_SYSTEM_CONTRACT, BOOTLOADER_FORMAL_ADDRESS} from "../Constants.sol";
+import {RLPEncoder} from "../libraries/RLPEncoder.sol";
+import {EfficientCall} from "../libraries/EfficientCall.sol";
 
 /// @dev The type id of zkSync's EIP-712-signed transaction.
 uint8 constant EIP_712_TX_TYPE = 0x71;
