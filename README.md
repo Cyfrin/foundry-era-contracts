@@ -1,7 +1,7 @@
 > [!IMPORTANT]  
 > This codebase is a work in progress. 
 
-# Mock Era Contracts
+# Foundry Era Contracts
 
 This repository contains a subset of zkSync [system contracts](https://docs.zksync.io/zk-stack/components/smart-contracts/system-contracts.html) for testing purposes. Once the [era-contracts](https://github.com/matter-labs/era-contracts/) GitHub repo releases a library edition, we will recommend people to use that instead. 
 
