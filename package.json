@@ -1,0 +1,13 @@
+{
+    "name": "mock-era-contracts",
+    "license": "MIT",
+    "version": "0.0.1",
+    "description": "A minimal repo to help test against zkSync system contracts.",
+    "files": [
+        "src/**/*.sol"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cyfrin/mock-era-contracts.git"
+    }
+}
