@@ -20,12 +20,12 @@ This repository contains a subset of zkSync [system contracts](https://docs.zksy
 ## Installation
 
 ```bash
-forge install cyfrin/mock-era-contracts --no-commit
+forge install cyfrin/foundry-era-contracts --no-commit
 ```
 
 or
 
 ```bash
-npm install https://github.com/cyfrin/mock-era-contracts
+npm install https://github.com/cyfrin/foundry-era-contracts
 ```
 
